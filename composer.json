@@ -1,0 +1,22 @@
+{
+  "name": "antonkalmykov/ioccontainer",
+  "type": "library",
+  "description": "The IoC Container component for ItCourses Jazz Framework",
+  "keywords": [],
+  "homepage": "https://github.com/kalmykovanton/IoCContainer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anton Kalmykov",
+      "email": "a.kalmykov@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "IoCContainer\\": "src/"
+    }
+  }
+}
